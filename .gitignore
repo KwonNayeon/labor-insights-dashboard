@@ -1,0 +1,34 @@
+# --- Python Environment ---
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv/
+
+# --- Data & Configuration ---
+data/*.csv
+
+# Environment variables and secrets
+.env
+
+# --- IDE & OS Specific ---
+# VS Code / PyCharm / Jupyter metadata
+.vscode/
+.idea/
+.ipynb_checkpoints/
+
+# OS-generated files (macOS / Windows)
+.DS_Store
+Thumbs.db
+
+# --- Build & Distribution ---
+# Folders created during packaging
+dist/
+build/
+*.egg-info/
