@@ -1,0 +1,10 @@
+# Core Data Analysis
+pandas==2.3.3
+numpy==2.2.6
+
+# Data Generation
+faker
+
+# Dashboard & Visualization
+streamlit==1.54.0
+plotly==6.6.0
