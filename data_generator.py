@@ -42,7 +42,7 @@ for day in range(100):
     daily_sales = max(1500, daily_sales) # Ensure a minimum floor for sales
     
     # Shift Simulation: Number of shifts scales with daily sales volume
-    num_shifts = int(daily_sales / 250) + np.random.randint(-2, 5)
+    num_shifts = int(daily_sales / 450) + np.random.randint(0, 3)
     
     for _ in range(num_shifts):
         emp = employees_df.sample(1).iloc[0]
