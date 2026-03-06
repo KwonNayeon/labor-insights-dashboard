@@ -1,0 +1,13 @@
+[project]
+name = "labor-insights-dashboard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "faker>=40.8.0",
+    "numpy==2.2.6",
+    "pandas==2.3.3",
+    "plotly==6.6.0",
+    "streamlit==1.54.0",
+]

@@ -11,9 +11,6 @@ env/
 ENV/
 .venv/
 
-# --- Data & Configuration ---
-data/*.csv
-
 # Environment variables and secrets
 .env
 
@@ -32,3 +29,6 @@ Thumbs.db
 dist/
 build/
 *.egg-info/
+
+.uv/
+.python-version
